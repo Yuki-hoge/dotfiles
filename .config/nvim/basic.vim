@@ -6,7 +6,7 @@ function! Chomp(string)
 endfunction
 
 " load plugin config
-source <sfile>:h/plugs.vim
+source <sfile>:h/plugins/plugs.vim
 
 " set colorscheme
 " colorscheme must be set after loading myplugs.vim because iceberg is managed by vim-plug
